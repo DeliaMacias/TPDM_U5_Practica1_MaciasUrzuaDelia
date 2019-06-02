@@ -31,22 +31,4 @@ public class ReceptorSMS extends BroadcastReceiver {
 
     }
 
-    private void buscaCodigo(String texto) {
-
-        if(search!=null){
-            enviarMensaje(telefono,""+search.informacion);
-        }else{
-            enviarMensaje(telefono,"No se reconoce el codigo");
-        }
-
-
-    }
-    private void enviarMensaje(String tel,String men){
-        try{
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-    }
 }
